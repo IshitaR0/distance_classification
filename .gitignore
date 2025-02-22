@@ -1,0 +1,10 @@
+venv/
+
+datasets/
+*.csv
+*.tsv
+*.json
+*.xlsx
+
+logs/
+*.log
