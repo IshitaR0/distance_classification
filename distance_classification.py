@@ -1,8 +1,8 @@
-import cv2
+# import cv2
 
-image = cv2.imread("Plaksha_Faculty.jpg")
+# image = cv2.imread("Plaksha_Faculty.jpg")
 
-cv2.imshow("Image", image)
+# cv2.imshow("Image", image)
 
-cv2.waitKey(0)
+# cv2.waitKey(0)
 
