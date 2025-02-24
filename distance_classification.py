@@ -1,8 +1,10 @@
-# import cv2
+import cv2
+import matplotlib.pyplot as plt
 
-# image = cv2.imread("Plaksha_Faculty.jpg")
+image = cv2.imread("Plaksha_Faculty.jpg")
 
-# cv2.imshow("Image", image)
 
-# cv2.waitKey(0)
+plt.imshow(image)
+plt.axis("off")  
+plt.show()
 
