@@ -13,4 +13,4 @@ jobs:
               run: |
                 pip install numpy pandas scikit-learn opencv-python
             - name: Run test script
-              run: python Lab 5-Spring 2025.ipynb
+              run: python Lab_5_Spring_2025.ipynb
