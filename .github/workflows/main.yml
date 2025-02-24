@@ -11,7 +11,7 @@ jobs:
                 python-version: '3.11'
             - name: Install dependencies
               run: |
-                pip install numpy pandas scikit-learn opencv-python jupyter nbconvert
+                pip install numpy pandas scikit-learn opencv-python jupyter nbconvert matplotlib scipy
 
             - name: Convert Notebook to Python Script
               run: jupyter nbconvert --to script Lab_5_Spring_2025.ipynb
