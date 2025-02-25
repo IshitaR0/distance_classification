@@ -1,7 +1,13 @@
 # distance_classification
-MLPR lab5
 
-WANDB project dashboard screenshot - 
+## MLPR lab5
+
+### Ishita Rathore
+
+### Project Follows - 
+
+#### WANDB project dashboard screenshot - 
+
 ![Project dashboard _ WANDB](image.png)
 
 Images : (through the process)
