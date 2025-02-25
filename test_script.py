@@ -30,3 +30,5 @@ for img_file in image_filenames:
         print(f"Warning: {img_file} not found.")
 
 print("All tests and WandB logging completed successfully.")
+
+wandb.finish()
