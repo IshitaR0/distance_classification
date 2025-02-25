@@ -24,7 +24,7 @@ jobs:
           pip install numpy pandas scikit-learn opencv-python jupyter nbconvert matplotlib scipy wandb
 
       - name: Convert Notebook to Python Script
-        run: jupyter nbconvert --to script Lab_5_Spring_2025.ipynb
+        run: jupyter nbconvert --to notebook --execute Lab_5_Spring_2025.ipynb --output Lab_5_Spring_2025_executed.ipynb
 
       - name: Run Notebook & Log to WandB
         env:
